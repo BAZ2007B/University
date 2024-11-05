@@ -1,0 +1,200 @@
+/*ajax*/
+
+.ajax {
+    padding: 20px 0px;
+}
+
+.ajax__container {
+    border: 20px solid #777;
+    padding: 20px 0px;
+}
+
+.ajax__title {
+    margin: 0px 0px 10px 0px;
+}
+
+.ajax__progress-bar {
+    margin: 0px 20px;
+}
+
+.ajax__button {
+    margin: 0px 20px 20px 20px;
+}
+
+.ajax__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    gap: 40px;
+}
+
+.ajax__image {
+    width: 150px;
+	height: 150px;
+	transition: all ease 1s;
+	transition-property: all;
+  	border: 1px solid #FFF;
+    transition: 1s;
+
+}
+
+.ajax__image:hover {
+	opacity: 0;
+
+}
+
+/*Слайдер*/
+
+.slider {
+    padding: 20px 0px;
+}
+
+.slider__container {
+    border: 20px solid #777;
+    padding: 20px 0px;
+}
+
+.slider__title {
+    margin: 0px 0px 10px 0px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.slider__body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main__prev-button {}
+
+.slider-button {
+    flex: 0 1 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.slider-button:hover {
+    transform: scale(1.07);
+}
+
+.slider__block {
+    border: 10px solid black;
+    margin: 0px 20px;
+    transition: .6s;
+    overflow: hidden;
+    flex: 0 1 300px;
+    height: 200px;
+}
+
+.slider__track {
+    display: flex;
+    transition: .6s;
+}
+
+.slider__item {
+    max-width: 100%;
+}
+
+
+/*Меню аккордеон*/
+
+.accordion {
+    padding: 20px 0px;
+}
+
+.accordion__container {
+    border: 20px solid #777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.accordion__title {
+    margin: 0px 0px 10px 0px;
+}
+
+.accordion__item {
+    width: 460px;
+    margin: 0px 0px 20px 0px;
+    background-color: #cccccc;
+}
+
+.accordion__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.accordion__header:after {
+    content: '\2193';
+    font-size: 2rem;
+    color: black;
+    float: right;
+}
+
+.accordion__header.active:after {
+    content: '\2191';
+}
+
+.accordion__body {
+    padding: 10px 0px 0px 0px;
+    display: none;
+}
+
+.accordion__body.active {
+    display: block;
+}
+
+
+/*Табы*/
+
+.tabs {
+    padding: 20px 0px;
+}
+
+.tabs__container {
+    border: 20px solid #777;
+    padding: 20px 20px;
+}
+
+.tabs__title {
+    margin: 0px 0px 10px 0px;
+}
+
+.tabs__img {
+    width: 250px;
+	height: 250px;
+}
+
+
+/*Выбор даты*/
+
+.date {
+    padding: 20px 0px;
+}
+
+.date__container {
+    border: 20px solid #777;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date__title {
+    margin: 0px 0px 10px 0px;
+}
+
+.date__datepicker {
+    background-color: #cccccc;
+}

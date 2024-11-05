@@ -1,0 +1,10 @@
+/*---Global Settings---*/
+* {margin: 0; padding: 0;}
+html, body {height: 100vh; width: 100vw; display: grid; place-items: center;}
+
+/*---Canvas---*/
+#canvas {
+	width: 80vh;
+	height: 50vh;
+	border: 3vw solid black;
+}
