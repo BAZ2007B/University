@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        a,
+        a:visited {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        [class*="__container"] {
+            max-width: 1177px;
+            margin: 0px auto;
+            padding: 0px 15px;
+        }
+
+        body {
+            font-family: Montserrat;
+            font-weight: 500;
+        }
+
+        .main {
+            flex: 1 1 auto;
+        }
+
+        .main-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .main-block__container {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .main-block__link {
+            border: 1px solid #777;
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 2px;
+        }
+
+        .main-block__link:hover {
+            background-color: #777;
+        }
+
+        .main-block__item {
+            margin: 0px 0px 10px 0px;
+        }
+
+        .main-block__pages,
+        .main-block__form-block {
+            border-radius: 20px;
+            padding: 100px;
+            border: 10px solid #777;
+        }
+
+        .main-block__pages {
+            margin: 0px 0px 10px 0px;
+        }
+
+        #username {
+            border-radius: 20px;
+            border: 1px solid #777;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="main">
+        <section class="main-block">
+            <div class="main-block__container">
+                <div class="main-block__pages">
+                    <h1>Выбор страницы</h1>
+                    <ul class="main-block__menu">
+                        <li class="main-block__item"> <a class="main-block__link"
+                                onclick="window.location.href='/page1'">Первая страничка</a> </li>
+                        <li class="main-block__item"><a class="main-block__link"
+                                onclick="window.location.href='/page2'">Вторая страничка</a></li>
+                        <li class="main-block__item"><a class="main-block__link"
+                                onclick="window.location.href='/page3'">Третья страничка</a></li>
+                        <li class="main-block__item"><a class="main-block__link"
+                                onclick="window.location.href='/page4'">Четвёртая страничка</a></li>
+                        <li class="main-block__item"> <a class="main-block__link"
+                                onclick="window.location.href='/page5'">Пятая страничка</a></li>
+                    </ul>
+                </div>
+                <div class="main-block__form-block">
+                    <form action="/data" method="post">
+                        <label for="POST-name">Name:</label>
+                        <input id="username" type="text" name="name">
+                        <input type="submit" value="Принять">
+                        <div class="main-block__form-check">
+                            <input class="main-block__input" type="checkbox" name="CheckBox №1" id="studyDefault">
+                            <label class="main-block__label" for="firstDefault">CheckBox №1</label>
+                        </div>
+                        <div class="main-block__form-check">
+                            <input class="main-block__input" type="checkbox" name="CheckBox №2" id="musicDefault">
+                            <label class="main-block__label" for="secondDefault">CheckBox №2</label>
+                        </div>
+                        
+                      </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+</body>
+
+</html>

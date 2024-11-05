@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <title>7 lab</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        a,
+        a:visited {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        [class*="__container"] {
+            max-width: 1177px;
+            margin: 0px auto;
+            padding: 0px 15px;
+        }
+
+        body {
+            font-family: Montserrat;
+            font-weight: 500;
+        }
+
+        .main {
+            flex: 1 1 auto;
+        }
+
+        .main-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .main-block__container {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            border: 10px solid #777;
+            border-radius: 20px;
+            padding: 100px;
+        }
+
+        .main-block__body {
+            margin: 0px 0px 20px 0px;
+        }
+
+        .main-block__button {
+            border: 1px solid #777;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .main-block__button:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main">
+        <section class="main-block">
+            <div class="main-block__container">
+                <div class="main-block__body">
+                    <h1>{{title}}</h1>
+                </div>
+                <a class="main-block__button" onclick="window.location.href='/'">Назад</a>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+</body>
+
+</html>

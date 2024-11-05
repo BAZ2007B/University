@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Лабораторная №5</title>
+    <meta charset="utf-8">
+    <meta name="description" lang="ru" content="Магазин Apple устройств">
+    <meta name="author" content="Кирилл">
+    <link rel="stylesheet" href="/css/body.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <section class="ajax">
+                <div class="ajax__container">
+                    <div class="ajax__title title">ajax</div>
+                    <div class="ajax__progress-bar"></div>
+                    <button class="ajax__button">Загрузить данные</button>
+                    <div class="ajax__row">
+                        <img src="img" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <div class="slider__container">
+                    <div class="slider__title title">Слайдер</div>
+                    <div class="slider__body">
+                        <div class="main__prev-button slider-button"><img src="img/slider/arrow-left.svg" alt=""></div>
+                        <div class="slider__block">
+                            <div class="slider__track">
+                                <img class="slider__item" src="img/slider/1.jpg" alt="">
+                                <img class="slider__item" src="img/slider/2.jpg" alt="">
+                                <img class="slider__item" src="img/slider/3.jpeg" alt="">
+                                <img class="slider__item" src="img/slider/4.jpg" alt="">
+                                <img class="slider__item" src="img/slider/5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main__next-button slider-button"><img src="img/slider/arrow-right.svg" alt=""></div>
+                    </div>
+            </section>
+            <section class="accordion">
+                <div class="accordion__container">
+                    <div class="accordion__title title">Меню аккордеон</div>
+                    <div class="accordion__item">
+                        <div class="accordion__header">Пункт 1</div>
+                        <div class="accordion__body">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="accordion__item">
+                        <di+v class="accordion__header">Пункт 2</di+v>
+                        <div class="accordion__body">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__header">Пункт 3</div>
+                        <div class="accordion__body">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__header">Пункт 4</div>
+                        <div class="accordion__body">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__header">Пункт 5</div>
+                        <div class="accordion__body">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                </div>
+            </section>
+            <section class="tabs">
+                <div class="tabs__container">
+                    <div class="tabs__title title">Табы</div>
+                    <div class="tabs__block">
+                        <ul>
+                          <li><a href="#tabs-1">Первая</a></li>
+                          <li><a href="#tabs-2">Вторая</a></li>
+                          <li><a href="#tabs-3">Третья</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <img class="tabs__img" src="img/tabs/1.jpg">
+                            <img class="tabs__img" src="img/tabs/2.jpg">
+                        </div>
+                        <div id="tabs-2"> 
+                            <img class="tabs__img" src="img/tabs/3.jpg">
+                            <img class="tabs__img" src="img/tabs/4.jpg">
+                        </div>
+                        <div id="tabs-3">
+                            <img class="tabs__img" src="img/tabs/5.jpg">
+                            <img class="tabs__img" src="img/tabs/6.jpg">
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <section class="date">
+                <div class="date__container">
+                    <div class="date__title title">Выбор даты</div>
+                    <input type="text" class="date__datepicker">
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
+        integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

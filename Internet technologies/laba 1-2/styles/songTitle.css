@@ -1,0 +1,25 @@
+a.text:active, /* активная/посещенная ссылка */
+a.text { /* просто ссылка */
+  text-decoration: none;
+  color: #C6C3B5;
+}
+a.text:hover { /* ссылка при наведении */
+	color: #AB2328;
+}
+
+.dot { /* изменение первой буквы названия */
+	font-family: 'Noto Sans HK', sans-serif;
+}
+.gridElement1 {	
+	grid-column: 1;
+}
+#image1 {
+	height: 5em;
+	width: 5em;
+	float: right;
+	border: 5px solid #B5B8B1;
+}
+.gridElement2 {
+	text-align: left;
+	grid-column: 2;
+}

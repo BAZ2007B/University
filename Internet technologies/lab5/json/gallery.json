@@ -1,0 +1,8 @@
+{
+	"gallery":"Emperors",
+	"images":[
+    	{"name":"Photo 1","file":"image1.jpg"},
+    	{"name":"Photo 2","file":"image2.jpg"},
+    	{"name":"Photo 3","file":"image3.jpg"}
+    	]
+}
