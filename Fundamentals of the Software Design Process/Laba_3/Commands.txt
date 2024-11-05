@@ -1,0 +1,17 @@
+ADD Cmouse laser 15 1502 Company1
+ADD Cmouse laser 15 1510 Company2
+ADD Cmouse laser 15 1515 Company3
+REM Price > 1505
+PRINT
+ADD Cmouse laser 15 1508 Company4
+ADD Cmouse laser 15 1520 Company5
+ADD Cmouse laser 15 1503 Company6
+REM Price > 1590
+PRINT
+REM Company != Company6
+PRINT
+ADD Cmouse laser 15 1520 Company7
+ADD Cmouse laser 15 1503 Company8
+ADD Cmouse laser 10 1503 Company9
+REM Price == 1503
+PRINT
